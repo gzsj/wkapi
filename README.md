@@ -98,8 +98,8 @@ curl -X GET "http://api.wkexam.com/api/?token=qqqqq&q=中国梦是什么？"
 {
     "code": 1,
     "data": {
-        "question": "中国梦是什么？",
-        "answer": "实现中华民族伟大复兴，本质是国家富强、民族振兴、人民幸福。"
+        "question": "以下错误描述人对事物的好恶的是()。",
+        "answer": "人的好恶是无法被自身控制的"
     },
     "message": "请求成功"
 }
@@ -111,7 +111,7 @@ curl -X GET "http://api.wkexam.com/api/?token=qqqqq&q=中国梦是什么？"
 {
     "code": 0,
     "data": {
-        "question": "中国梦是什么？",
+        "question": "以下错误描述人对事物的好恶的是()。",
         "answer": "很抱歉, token已达到每日使用限制 (1000次)"
     },
     "message": "请求失败：已达到每日使用限制 (1000次)"
